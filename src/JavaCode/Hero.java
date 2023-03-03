@@ -37,10 +37,11 @@ public class Hero{
         GaRen.MoveSpeed=345;
         GaRen.addSpeed(50);
 
-        Hero TeeMo=new Hero();
+        Hero TeeMo = new Hero();
         TeeMo.Hp=4800f;
         TeeMo.Name="提莫";
         TeeMo.Armor=800f;
         TeeMo.MoveSpeed=345;
+        TeeMo.addSpeed(80);
     }
 }
