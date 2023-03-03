@@ -43,5 +43,19 @@ public class Hero{
         TeeMo.Armor=800f;
         TeeMo.MoveSpeed=345;
         TeeMo.addSpeed(80);
+
+        System.out.println(GaRen.Name+"的血量是"+GaRen.GetHp());
+        System.out.println(GaRen.Name+"的护甲是"+GaRen.GetArmor());
+        System.out.println(GaRen.Name+"的移速是"+GaRen.MoveSpeed);
+        System.out.println("-------------------");
+        System.out.println(TeeMo.Name+"的血量是"+TeeMo.GetHp());
+        System.out.println(TeeMo.Name+"的护甲是"+TeeMo.GetArmor());
+        System.out.println(TeeMo.Name+"的移速是"+TeeMo.MoveSpeed);
+
+        TeeMo.recovery(1000f);
+        System.out.println(TeeMo.Name+"的血量是"+TeeMo.GetHp());
+        GaRen.Keng();
+        System.out.println(GaRen.Name+"的金币是"+GaRen.GoldCoin);
+        TeeMo.legendary();
     }
 }
