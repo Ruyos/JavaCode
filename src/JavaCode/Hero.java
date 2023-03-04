@@ -64,9 +64,5 @@ public class Hero {
         System.out.println(GaRen.Name + "的金币是" + GaRen.GoldCoin);
         TeeMo.legendary();
 
-        new Hero();
-        Hero Garen = new Hero();
-        Hero teemo = new Hero();
-
     }
 }
