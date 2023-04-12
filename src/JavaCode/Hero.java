@@ -10,8 +10,8 @@ public class Hero {
     int GoldCoin;//金币
 
     void Keng() {//坑队友加金币
-        System.out.println("谢谢你，泰罗");
-        GoldCoin += 50;
+        System.out.println("noob");
+        GoldCoin -= 50;
     }
 
     float GetArmor() {//返回护甲值
@@ -32,5 +32,11 @@ public class Hero {
 
     void recovery(float blood) {//加血
         Hp += blood;
+    }
+    public static void main(String[]args){
+        ADHero ad = new ADHero();
+        Hero h = ad;
+        AD adi = (AD) h;
+        APHero ap = (APHero) adi;
     }
 }
